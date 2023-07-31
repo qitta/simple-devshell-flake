@@ -33,7 +33,7 @@
         userScripts = with scripts; [script1 script2 script3 fact];
 
         # E.g. build dependencies to build you project
-        buildDependencies = with pkgs; [go_1_20 govulncheck revive golangci-lint];
+        buildDependencies = with pkgs; [go_1_20 gum govulncheck revive golangci-lint];
 
         # Other utilities you want in your environment
         utilities = with pkgs; [ fzf zip app1 ];

@@ -1,7 +1,7 @@
 # Simple Developer Shell
 
-Use `nix develop "git+https://git.scandio.de/scm/~cpiechula/simple-devshell-flake.git"`
+Three steps to success :)
 
-Or just use nix-direnv to activate your shell automatically:
-
-`echo "use flake git+https://git.scandio.de/scm/~cpiechula/simple-devshell-flake.git" >> .envrc && direnv allow`
+1. `git clone https://github.com/qitta/simple-devshell-flake.git`
+2. `cd simple-devshell-flake`
+3. `nix develop`
